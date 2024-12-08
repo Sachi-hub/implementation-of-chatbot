@@ -1,0 +1,275 @@
+[
+    
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hello",
+                "Hey",
+                "Good morning",
+                "Good afternoon",
+                "Good evening",
+                "How are you?",
+                "Is anyone there?",
+                "What's up?",
+                "Hi chatbot"
+            ],
+            "responses": [
+                "Hello! Welcome to City Hospital. How can I assist you today?",
+                "Hi there! I'm here to provide any information you need. How can I help?",
+                "Good day! How may I assist you with your hospital-related queries?",
+                "Hey! Let me know if there's something I can assist with.",
+                "Welcome to City Hospital. What can I do for you?"
+            ]
+        },
+        {
+            "tag": "appointment",
+            "patterns": [
+                "I want to book an appointment",
+                "Can I schedule a visit?",
+                "Book a doctor",
+                "Schedule an appointment",
+                "I need to see a doctor",
+                "Can I check the availability of Dr. John?",
+                "How do I make a doctor's appointment?",
+                "Who is available for cardiology today?",
+                "I need to consult a pediatrician",
+                "Can I schedule a same-day appointment?"
+            ],
+            "responses": [
+                "Of course! Please let me know the doctor's name, the preferred time, and your details to book an appointment.",
+                "Sure! You can book an appointment by providing your contact information, the doctor you wish to consult, and the time that works for you.",
+                "Dr. John is available today from 2 PM to 5 PM. Shall I book your appointment?",
+                "To schedule an appointment, you can visit our online booking portal or share the details here.",
+                "Same-day appointments are possible depending on the availability of the doctor. Let me check for you."
+            ]
+        },
+        {
+            "tag": "billing",
+            "patterns": [
+                "What is my current bill?",
+                "How can I check my bill online?",
+                "How much do I owe for my last visit?",
+                "Details about my hospital bill",
+                "Where can I pay my bill?",
+                "Does the hospital accept installment payments?",
+                "What payment methods do you accept?",
+                "Can I pay using credit card or UPI?",
+                "Do you provide itemized bills for insurance claims?",
+                "What is the process for cashless payments?"
+            ],
+            "responses": [
+                "You can check your bill by providing your patient ID or appointment number. Do you have those details handy?",
+                "To pay your bill, you can visit our billing desk or use our online payment gateway.",
+                "We accept all major payment methods, including credit cards, debit cards, UPI, and cash. For installment options, please contact our billing department.",
+                "Yes, we provide itemized bills for insurance purposes. Please request it at the billing desk or via email at billing@cityhospital.com.",
+                "Cashless payments are accepted if you have valid insurance coverage. Ensure your provider is listed with us."
+            ]
+        },
+        {
+            "tag": "departments",
+            "patterns": [
+                "What are the hospital departments?",
+                "Tell me about the specialties available",
+                "What services does your hospital provide?",
+                "Do you have a cardiology department?",
+                "List of departments in your hospital",
+                "What facilities are available?",
+                "What services does the pediatric unit offer?",
+                "Do you have a maternity department?",
+                "Is there a physiotherapy center here?",
+                "Can you tell me about the oncology services?"
+            ],
+            "responses": [
+                "City Hospital offers a wide range of departments, including:\n- Cardiology\n- Neurology\n- Pediatrics\n- Dermatology\n- Oncology\n- Orthopedics\n- General Surgery\n- Maternity Services\n- Physiotherapy\n- Radiology.",
+                "Yes, we have specialized units for cardiology, maternity, pediatrics, and oncology. How can I assist further?",
+                "Our pediatric department offers immunizations, wellness checkups, and specialized care for children. Would you like more details?",
+                "Our maternity unit provides prenatal care, delivery, and postpartum services. Let me know if you need more details."
+            ]
+        },
+        {
+            "tag": "emergency",
+            "patterns": [
+                "Is there a 24/7 emergency service?",
+                "What to do in case of an emergency?",
+                "Does the hospital have an ambulance service?",
+                "How do I contact the emergency department?",
+                "What should I do for an urgent medical situation?",
+                "Can I directly visit the emergency room?",
+                "What is the hospital's emergency contact number?",
+                "Do you handle trauma cases?",
+                "Does the hospital have a trauma center?",
+                "What are the services in the emergency room?"
+            ],
+            "responses": [
+                "Yes, our emergency department operates 24/7. For urgent medical care, call our helpline at +1-800-123-4567 or visit us directly.",
+                "In case of an emergency, you can call our ambulance service at +1-800-123-4567. We handle trauma, cardiac issues, and all critical cases.",
+                "Our emergency room is equipped to handle trauma, cardiac emergencies, fractures, and other critical conditions.",
+                "For immediate assistance, visit the emergency unit located on the ground floor near the main entrance."
+            ]
+        },
+        {
+            "tag": "insurance",
+            "patterns": [
+                "Do you accept insurance?",
+                "Which insurance companies do you work with?",
+                "Can I pay my bill using insurance?",
+                "What is the cashless claim process?",
+                "Do you accept international insurance?",
+                "How do I file an insurance claim?",
+                "What are the documents needed for insurance processing?",
+                "Is my insurance policy accepted here?",
+                "Does the hospital provide cashless treatment for surgeries?",
+                "What is the process for reimbursement claims?"
+            ],
+            "responses": [
+                "Yes, we accept insurance from most major providers. To confirm, please provide your insurance provider name.",
+                "For cashless treatment, ensure your insurance provider is tied up with us. Present your insurance card and a valid ID at the time of admission.",
+                "International insurance is accepted if the provider has a network in our country. Please check with our billing department.",
+                "For reimbursement claims, collect all itemized bills and discharge summaries. Our staff can assist you with the required documents."
+            ]
+        },
+        {
+            "tag": "child_health",
+            "patterns": [
+                "What child health services do you offer?",
+                "Are there vaccination programs for children?",
+                "Do you provide pediatric care?",
+                "Can I book a pediatrician?",
+                "What age group does your pediatric unit cater to?",
+                "Are wellness checkups available for kids?",
+                "Do you handle child developmental disorders?",
+                "Do you provide immunizations for kids?",
+                "Is there a child nutritionist available?",
+                "What pediatric surgeries are performed here?"
+            ],
+            "responses": [
+                "Our pediatric department provides:\n- Wellness checkups\n- Vaccinations\n- Treatment for illnesses\n- Developmental disorder care\n- Pediatric surgeries.",
+                "Yes, we have immunization programs for children. You can book an appointment with our pediatrician for more details.",
+                "We cater to children aged 0-18 years and offer comprehensive care, including developmental assessments and nutritional advice."
+            ]
+        },
+        {
+            "tag": "surgeries",
+            "patterns": [
+                "What surgeries are performed in the hospital?",
+                "Do you perform laparoscopic surgeries?",
+                "Can I get details about cardiac surgery?",
+                "Do you perform joint replacement surgeries?",
+                "What is the process for booking a surgery?",
+                "Are there cosmetic surgery options available?",
+                "Do you perform cancer surgeries?",
+                "What are the charges for general surgery?",
+                "Do you have robotic surgery equipment?",
+                "What post-surgical care services do you provide?"
+            ],
+            "responses": [
+                "We perform various surgeries, including:\n- Cardiac surgery\n- Joint replacement\n- Laparoscopic procedures\n- General and cosmetic surgeries.",
+                "Yes, our oncology department specializes in cancer surgeries and treatments. Let us know your requirements.",
+                "To book a surgery, consult with your doctor for pre-surgical advice. You can then schedule the procedure through our surgery department."
+            ]
+        },
+        {
+            "tag": "health_tips",
+            "patterns": [
+                "Can you give me health tips?",
+                "How to maintain good health?",
+                "What should I do to stay healthy?",
+                "Share some health advice"
+            ],
+            "responses": [
+                "Drink plenty of water, eat a balanced diet, and exercise regularly.",
+                "Get regular health check-ups and avoid smoking and excessive alcohol consumption.",
+                "Ensure 7-8 hours of sleep daily and manage stress effectively."
+            ]
+        },
+        {
+            "tag": "pharmacy",
+            "patterns": [
+                "Does the hospital have a pharmacy?",
+                "Where is the pharmacy located?",
+                "Can I buy medicines here?",
+                "Do you sell over-the-counter drugs?"
+            ],
+            "responses": [
+                "Yes, our pharmacy is located on the ground floor near the main entrance.",
+                "We sell prescription and over-the-counter medications. Visit the pharmacy for assistance.",
+                "You can also order medicines via our hospital's app for delivery."
+            ]
+        },
+        {
+            "tag": "visiting_rules",
+            "patterns": [
+                "What are the visiting hours?",
+                "Are there restrictions on visitors?",
+                "Can I visit my family member in the hospital?",
+                "What is the policy for visitors?"
+            ],
+            "responses": [
+                "Visiting hours are from 10 AM to 6 PM. Please follow COVID-19 protocols.",
+                "Only two visitors are allowed per patient. Masks are mandatory.",
+                "For ICU visits, special permissions are required from the hospital administration."
+            ]
+        },
+        {
+            "tag": "medical_records",
+            "patterns": [
+                "How can I access my medical records?",
+                "Can I get a copy of my test reports?",
+                "Where can I request my medical history?",
+                "Is there an online portal for medical records?"
+            ],
+            "responses": [
+                "You can access your medical records via our online portal or by visiting the records desk.",
+                "Request a copy of your test reports at medicalrecords@cityhospital.com.",
+                "For detailed history, please provide a valid ID at the records desk."
+            ]
+        },
+        {
+            "tag": "telemedicine",
+            "patterns": [
+                "Do you offer online consultations?",
+                "How do I book a telemedicine appointment?",
+                "Can I consult a doctor online?",
+                "What is the process for virtual consultations?"
+            ],
+            "responses": [
+                "Yes, we offer online consultations. Book an appointment via our website or app.",
+                "Telemedicine appointments can be scheduled by providing your details and preferred time.",
+                "For virtual consultations, ensure a stable internet connection and use our hospital app."
+            ]
+        },
+        {
+            "tag": "diagnostic_tests",
+            "patterns": [
+                "Do you perform blood tests?",
+                "Can I get an X-ray here?",
+                "Where is the diagnostic center?",
+                "What tests are available at your hospital?"
+            ],
+            "responses": [
+                "Our diagnostic center offers blood tests, X-rays, MRIs, and more.",
+                "You can book a test online or at the diagnostics desk on the first floor.",
+                "Test reports are usually available within 24-48 hours."
+            ]
+        },
+        {
+            "tag": "feedback",
+            "patterns": [
+                "I want to give feedback",
+                "How do I report a complaint?",
+                "Where can I leave a review?",
+                "Can I provide suggestions?",
+                "How do I file a complaint against a staff member?",
+                "I want to report an issue with billing",
+                "Can I speak to the management about my experience?",
+                "What is the process for providing feedback?"
+            ],
+            "responses": [
+                "We value your feedback. You can leave a review on our website or fill out the feedback form available at the reception.",
+                "For complaints or suggestions, please email us at feedback@cityhospital.com. We will address your concerns promptly.",
+                "If you have a specific issue to report, visit our helpdesk or speak to a patient relations officer."
+            ]
+        }
+    ]
+
